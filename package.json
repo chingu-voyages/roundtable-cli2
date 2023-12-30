@@ -5,6 +5,7 @@
   "main": "/src/index.js",
   "type": "module",
   "scripts": {
+    "categories": "node src/index.js categories",
     "random": "node src/index.js random",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
