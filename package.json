@@ -1,0 +1,31 @@
+{
+  "name": "roundtable-cli2",
+  "version": "1.0.0",
+  "description": "Chingu Roundtable - All about CLI",
+  "main": "/src/index.js",
+  "type": "module",
+  "scripts": {
+    "random": "node src/index.js random",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingu-voyages/roundtable-cli2.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "commander",
+    "dotenv"
+  ],
+  "author": "Jim D. Medlock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chingu-voyages/roundtable-cli2/issues"
+  },
+  "homepage": "https://github.com/chingu-voyages/roundtable-cli2#readme",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
+  }
+}
